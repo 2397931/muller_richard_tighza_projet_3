@@ -8,4 +8,8 @@ Un jeu VR où tu explores un donjon sombre avec un équipement limité (comme un
 ## Notre proposition
 Tu débute le jeu dans une des salles du donjon. En ta possession, tu as un briquet qui te permet de te naviguer dans le donjon. Ton but final est d'ammasser assez d'argent afin d'ouvrir le coffre en possession de la clé qui ouvre, par la suite, la porte par laquelle tu t'échappes.
 
-Pour votre quête de liberté.,vous devez amasser de l'argent pour améliorer vos équipements.
+### But principale du jeu
+Pour votre quête de liberté.,vous devez amasser de l'argent pour améliorer vos équipements. 
+
+#### Idées optionelles:
+Si vous avez besoin d'un petit indice, chaque pièce a ses sons uniques liés à un objet spécial et vous devez réussir de petits défis afin d'obtenir un bonus. Ce bonus vous donnera un indice sur l'emplacement de la porte.
