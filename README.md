@@ -27,6 +27,5 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 
 
 #### Idées optionelles:
--Si vous avez besoin d'un petit indice, chaque pièce a ses sons uniques liés à un objet spécial et vous devez réussir de petits défis afin d'obtenir un bonus. Ce bonus vous donnera un indice sur l'emplacement de lporte. 
--Dépendant du temps qui nous restera, on pensait mettre des enemies.
+-Si vous avez besoin d'un petit indice, chaque pièce a ses sons uniques liés à un objet spécial et vous devez réussir de petits défis afin d'obtenir un bonus. Ce bonus vous donnera un indice sur l'emplacement de la porte. Dépendant du temps qui nous restera, on pensait mettre des enemies.
 
