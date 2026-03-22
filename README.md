@@ -6,7 +6,7 @@ Un jeu d'évasion en VR où tu progresses dans un donjon sombre avec de l'équip
 
 
 ## Notre proposition
-Tu débute le jeu dans une des salles du donjon. En ta possession, tu as un briquet qui te permet de te naviguer dans le donjon. Ton but final est d'ammasser assez d'argent afin d'ouvrir le coffre en possession de la clé qui ouvre, par la suite, la porte par laquelle tu t'échappes.
+Tu débute le jeu dans une des salles du donjon avec pour seul outil un briquet qui te permet de te naviguer dans l'obscurité. En explorant les différentes pièces, tu dois surmonter des obstacles et trouver des moyens de gagner de l'argent. À force de progresser, tu peux retourner à la boutique pour améliorer ton équpement.
 
 ### But principale du jeu
 Pour votre quête de liberté.,vous devez amasser de l'argent pour améliorer vos équipements. 
