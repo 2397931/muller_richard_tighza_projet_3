@@ -11,3 +11,4 @@ Tu débute le jeu dans une des salles du donjon avec un seul outil: un briquet q
 ## Moodboard
 #### Idées optionelles:
 Si vous avez besoin d'un petit indice, chaque pièce a ses sons uniques liés à un objet spécial et vous devez réussir de petits défis afin d'obtenir un bonus. Ce bonus vous donnera un indice sur l'emplacement de la porte.
+<img width="1920" height="1080" alt="Moodboard (1)" src="https://github.com/user-attachments/assets/83c08213-e9ca-4be4-9a22-59130d32e05f" />
