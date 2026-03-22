@@ -4,9 +4,17 @@ Réalité Mixte
 ## Description du jeu
 Un jeu d'évasion en VR où tu progresses dans un donjon sombre avec de l'équipement limités, comme un briquet, gagnes de l'argent pour améliorer ton équipement dans une boutique ( par exemple en achetant une lampe de poche), dans le but d'amasser suffisamment d'argent pour ouvrir un coffre contenant la clé qui te permettra de t'échapper.
 
+<!-- ✏️ Un jeu d'évasion en VR dans lequel le joueur progresse dans un donjon sombre avec des objets limités. Il doit ammasser de l'argent pour améliorer son équipement à l'aide d'une boutique (par exemple en achetant des objets plus performants et efficaces). L'objectif est de récoletter les ressources nécessaires pour ouvrir un coffre contenant la clé permettant de s'échapper. -->
+
 
 ## Notre proposition
 Tu débute le jeu dans une des salles du donjon avec un seul outil: un briquet qui te permet de te naviguer dans l'obscurité. En explorant les différentes pièces, tu dois surmonter des obstacles et trouver des moyens de gagner de l'argent. À force de progresser, tu peux retourner à la boutique pour améliorer ton équpement. Par exemple, en achetant une meilleure source de lumière (une lampe de poche) ou d'autres outils qui faciliteront ta progression. Ton objectif final est d'amasser suffisamment d'argent pour ouvrir un coffre contenant une clé par laquelle tu pourras ensuite déverrouiller la porte menant à ta liberté.
+
+<!-- ✏️ Le joueur débute dans une salle du donjon avec un seul outil : un briquet, lui permettant de se déplacer dans l'obscurité. En explorant les différentes pièces, il doit surmonter des obstacles et trouver des moyens de gagner de l'argent.
+
+Au fil de la progression, il peut retourner à la boutique afin d'améliorer son équipement, par exemple en achetant une meilleure source de lumière (comme une lampe de poche) ou d'autres outils qui faciliteront son avancée.
+
+L'objectif final est d'amasser suffisamment d'argent pour ouvrir un coffre contenant une clé, permettant ensuite de déverouiller la porte menant à la sortie. -->
 
 ## Moodboard
 <img width="1920" height="1080" alt="Moodboard (1)" src="https://github.com/user-attachments/assets/83c08213-e9ca-4be4-9a22-59130d32e05f" />
@@ -33,3 +41,11 @@ Le briquet ne fonctionne pas en continu: il peut s'éteindre ou manquer de carbu
 Il y aura aussi une créature rôdant dans certains lieux. Elles réagissent au à la lumière. Donc, ç'est au joueur de voir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
 
 Il y aura une carte dans le jeu indiquant, par un X, l'emplacement d'une salle remplie d'argent. Le problème? Un pont brisé se dresse sur ton chemin avec de la lave qui t'attend en bas si tu tombes. Au joueur de voir si il devrait tempter sa chance.
+
+<!-- ✏️ Le briquet ne fonctionne pas en continu : il peut s'éteindre ou manquer de carburant. Le joueur doit donc trouver des recharges et gérer stratégiquement son utilisation. Une barre d'énergie est affichée afin d'indiquer la quantité de carburant restante.
+
+Il y aura des créatures dans certaines zones. Celles-ci réagissent à la lumière. Le joueur doit donc choisir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
+
+Une carte est disponible et indique à l'aide d'un ''X'', l'emplacement d'une salle contenant une grande quantité d'argent. Cependant, l'accès à cette salle est risqué car un pont brisé, passant au dessus d'une rivière de lave, bloque le passage. Le joueur doit donc décider s'il veut tenter sa chance malgré le danger. -->
+
+
