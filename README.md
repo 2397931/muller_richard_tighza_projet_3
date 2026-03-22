@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 
 
 ## Carte de notre environnemnt virtuel
+<img width="1920" height="1080" alt="Carte environnement" src="https://github.com/user-attachments/assets/5535a79f-a779-4f02-9a7e-20ae06ab585d" />
 
 ## Notre schéma
 
