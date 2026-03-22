@@ -28,5 +28,7 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 
 #### Idées optionelles:
 Le briquet ne fonctionne pas en continu: il peut s'éteindre ou manquer de carburant et ç'est au joueur de trouver des recharges ou décider quand l'utiliser. Une barre d'énergie sera aussi affichée afin d'indiquer la quantité de carburant restante dans le briquet.
-Il y aura aussi une créature rôdant dans certains lieux. Elles réagissent au à la lumière. Donc au joueur de voir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
 
+Il y aura aussi une créature rôdant dans certains lieux. Elles réagissent au à la lumière. Donc, ç'est au joueur de voir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
+
+Il y aura une carte dans le jeu indiquant, par un X, l'emplacement d'une salle remplie d'argent. Le problème? Un pont brisé se dresse sur ton chemin avec de la lave qui t'attend en bas si tu tombes. Au joueur de voir si il devrait tempter sa chance.
