@@ -2,7 +2,7 @@
 Réalité Mixte
 
 ## Description du jeu
-Un jeu VR où tu explores un donjon sombre avec un équipement limité (comme un briquet), gagnes de l’argent en progressant, puis retournes à une boutique pour améliorer ton équipement (comme une lampe de poche), dans le but d’amasser assez d’argent pour ouvrir un coffre contenant la clé qui te permet de t’échapper.
+Un jeu d'évasion en VR où tu progresses dans un donjon sombre avec de l'équipement limités, comme un briquet, gagnes de l'argent pour améliorer ton équipement dans une boutique ( par exemple en achetant une lampe de poche), dans le but d'amasser suffisamment d'argent pour ouvrir un coffre contenant la clé qui te permettra de t'échapper.
 
 
 ## Notre proposition
