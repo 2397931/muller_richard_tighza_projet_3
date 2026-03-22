@@ -27,5 +27,6 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 
 
 #### Idées optionelles:
--Si vous avez besoin d'un petit indice, chaque pièce a ses sons uniques liés à un objet spécial et vous devez réussir de petits défis afin d'obtenir un bonus. Ce bonus vous donnera un indice sur l'emplacement de la porte. Dépendant du temps qui nous restera, on pensait mettre des enemies.
+Le briquet ne fonctionne pas en continu: il peut s'éteindre ou manquer de carburant et ç'est au joueur de trouver des recharges ou décider quand l'utiliser. Une barre d'énergie sera aussi affichée afin d'indiquer la quantité de carburant restante dans le briquet.
+Il y aura aussi une créature rôdant dans certains lieux. Elles réagissent au à la lumière. Donc au joueur de voir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
 
