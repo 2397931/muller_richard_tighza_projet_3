@@ -19,6 +19,8 @@ L'objectif final est d'amasser suffisamment d'argent pour ouvrir un coffre conte
 ## Moodboard
 <img width="1920" height="1080" alt="Moodboard (1)" src="https://github.com/user-attachments/assets/83c08213-e9ca-4be4-9a22-59130d32e05f" />
 
+<img width="1920" height="1080" alt="Moodboard Menu" src="https://github.com/user-attachments/assets/b4116548-9555-4409-b463-eb55e7dd2770" />
+
 ## Sonore
 https://pixabay.com/fr/music/ambiant-dark-space-ambient-495569/
 
@@ -33,6 +35,8 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 <img width="1920" height="1080" alt="Carte environnement" src="https://github.com/user-attachments/assets/5535a79f-a779-4f02-9a7e-20ae06ab585d" />
 
 ## Notre schéma
+<img width="1920" height="1080" alt="Schéma" src="https://github.com/user-attachments/assets/262613a6-0e1f-432d-8c0a-77161bc47829" />
+
 
 
 #### Idées optionelles:
