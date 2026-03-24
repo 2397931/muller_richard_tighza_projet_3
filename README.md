@@ -37,6 +37,8 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 ## Notre schéma
 <img width="1920" height="1080" alt="Schéma" src="https://github.com/user-attachments/assets/262613a6-0e1f-432d-8c0a-77161bc47829" />
 
+## Les tâches
+<img width="1920" height="1080" alt="Tâches" src="https://github.com/user-attachments/assets/19cf14c2-7815-4b70-81e9-98df73df0839" />
 
 
 #### Idées optionelles:
