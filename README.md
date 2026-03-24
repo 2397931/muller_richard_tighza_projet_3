@@ -41,17 +41,6 @@ https://www.youtube.com/watch?v=W2NAblVD70Q&list=RDW2NAblVD70Q&start_radio=1
 <img width="1920" height="1080" alt="Tâches" src="https://github.com/user-attachments/assets/19cf14c2-7815-4b70-81e9-98df73df0839" />
 
 
-#### Idées optionelles:
-Le briquet ne fonctionne pas en continu: il peut s'éteindre ou manquer de carburant et ç'est au joueur de trouver des recharges ou décider quand l'utiliser. Une barre d'énergie sera aussi affichée afin d'indiquer la quantité de carburant restante dans le briquet.
 
-Il y aura aussi une créature rôdant dans certains lieux. Elles réagissent au à la lumière. Donc, ç'est au joueur de voir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
-
-Il y aura une carte dans le jeu indiquant, par un X, l'emplacement d'une salle remplie d'argent. Le problème? Un pont brisé se dresse sur ton chemin avec de la lave qui t'attend en bas si tu tombes. Au joueur de voir si il devrait tempter sa chance.
-
-<!-- ✏️ Le briquet ne fonctionne pas en continu : il peut s'éteindre ou manquer de carburant. Le joueur doit donc trouver des recharges et gérer stratégiquement son utilisation. Une barre d'énergie est affichée afin d'indiquer la quantité de carburant restante.
-
-Il y aura des créatures dans certaines zones. Celles-ci réagissent à la lumière. Le joueur doit donc choisir lorsqu'il est nécessaire d'utiliser ses sources de lumière.
-
-Une carte est disponible et indique à l'aide d'un ''X'', l'emplacement d'une salle contenant une grande quantité d'argent. Cependant, l'accès à cette salle est risqué car un pont brisé, passant au dessus d'une rivière de lave, bloque le passage. Le joueur doit donc décider s'il veut tenter sa chance malgré le danger. -->
 
 
