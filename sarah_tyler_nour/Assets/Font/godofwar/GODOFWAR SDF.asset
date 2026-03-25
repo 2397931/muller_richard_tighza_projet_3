@@ -973,6 +973,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - BEVEL_ON
   - UNDERLAY_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -986,7 +987,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5b79b5d672d90b946959964ba290813b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cube:
@@ -1007,17 +1008,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Ambient: 0.54
-    - _Bevel: 0.5
-    - _BevelClamp: 0
-    - _BevelOffset: 0
-    - _BevelRoundness: 0
+    - _Ambient: 1
+    - _Bevel: 0.671
+    - _BevelClamp: 0.652
+    - _BevelOffset: -0.169
+    - _BevelRoundness: 0.784
     - _BevelWidth: 0
-    - _BumpFace: 0
+    - _BumpFace: 1
     - _BumpOutline: 0
     - _ColorMask: 15
     - _CullMode: 0
-    - _Diffuse: 0
+    - _Diffuse: 0.497
     - _FaceDilate: 0
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
@@ -1026,7 +1027,7 @@ Material:
     - _GlowOuter: 0.53
     - _GlowPower: 1
     - _GradientScale: 10
-    - _LightAngle: 3.07
+    - _LightAngle: 0
     - _MaskSoftnessX: 0
     - _MaskSoftnessY: 0
     - _OutlineSoftness: 0
@@ -1037,10 +1038,10 @@ Material:
     - _Reflectivity: 10
     - _ScaleRatioA: 0.9
     - _ScaleRatioB: 0.73125
-    - _ScaleRatioC: 0.64144737
+    - _ScaleRatioC: 0.33238634
     - _ScaleX: 1
     - _ScaleY: 1
-    - _ShaderFlags: 0
+    - _ShaderFlags: 1
     - _Sharpness: 0
     - _SpecularPower: 2.92
     - _Stencil: 0
@@ -1050,9 +1051,9 @@ Material:
     - _StencilWriteMask: 255
     - _TextureHeight: 1024
     - _TextureWidth: 1024
-    - _UnderlayDilate: -0.86
+    - _UnderlayDilate: 0.2
     - _UnderlayOffsetX: -1
-    - _UnderlayOffsetY: -1
+    - _UnderlayOffsetY: 0.25
     - _UnderlaySoftness: 1
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
