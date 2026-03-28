@@ -26,7 +26,7 @@ public class scriptmenu : MonoBehaviour
         Application.Quit();
     }
 
-    public void jouer()
+    public void Commencer()
     {
         SceneManager.LoadScene(1);
     }
