@@ -10,26 +10,16 @@ public class scriptmenu : MonoBehaviour
 
 {
 
-    void Start()
-
+    public void Commencer()
     {
-
-    }
-
-
-    void Update()
-    {
-
+        SceneManager.LoadScene(1);
     }
     public void quitterPartie()
     {
         Application.Quit();
     }
 
-    public void Commencer()
-    {
-        SceneManager.LoadScene(1);
-    }
+    
 
 }
 
