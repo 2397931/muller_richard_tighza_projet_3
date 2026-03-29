@@ -575,6 +575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.37
@@ -637,6 +641,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2533,14 +2541,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 86537659}
-  speed: 12
-  gravity: -9.81
-  jumpHeight: 3
+  walkSpeed: 5.5
+  sprintSpeed: 9
+  acceleration: 10
+  deceleration: 12
+  gravity: -60
+  jumpHeight: 2
   groundCheck: {fileID: 1508338184}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+  cameraHolder: {fileID: 1519373150}
+  bobSpeed: 12
+  bobAmount: 0.04
+  bobSideAmount: 0.025
+  tiltAmount: 3
+  tiltSpeed: 5
+  landingDip: 0.1
+  landingSpeed: 5
 --- !u!143 &86537659
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2767,6 +2786,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3622,6 +3645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 55.79
@@ -3747,6 +3774,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4567,6 +4598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.71
@@ -5259,6 +5294,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6367,6 +6406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -6556,6 +6599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.23815373
@@ -6744,6 +6791,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SD_Env_Doorway_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7225593993079870516, guid: 9c79e447d7d515347833ecca874905ea,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6956,6 +7008,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8509,6 +8565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 55.66
@@ -8571,6 +8631,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8823,6 +8887,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9264,6 +9332,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10564,6 +10636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -10689,6 +10765,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11032,6 +11112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.78
@@ -11262,6 +11346,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12018,6 +12106,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12984,6 +13076,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.23815373
@@ -13614,6 +13710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.37
@@ -13740,6 +13840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -13802,6 +13906,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14117,6 +14225,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15364,6 +15476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.72
@@ -15976,6 +16092,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16657,6 +16777,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18328,6 +18452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.35
@@ -18390,6 +18518,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19189,6 +19321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.78
@@ -19567,6 +19703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -19629,6 +19769,14 @@ PrefabInstance:
     - target: {fileID: 158178, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Door_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 158178, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173666, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 410528, guid: 5aa30891913dc934fa50d8fc19f4fde3, type: 3}
       propertyPath: m_LocalScale.y
@@ -19763,6 +19911,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19956,6 +20108,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20272,6 +20428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.23815373
@@ -20472,6 +20632,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20787,6 +20951,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21144,6 +21312,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22960,6 +23132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.747253
@@ -24574,6 +24750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.37
@@ -25537,6 +25717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.86
@@ -25725,6 +25909,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26332,6 +26520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.747253
@@ -26395,6 +26587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -26457,6 +26653,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26583,6 +26783,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalScale.x
@@ -26911,6 +27115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.73
@@ -26973,6 +27181,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31026,6 +31238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -31151,6 +31367,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32682,6 +32902,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.747253
@@ -33419,6 +33643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -33607,6 +33835,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34112,6 +34344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.7
@@ -34300,6 +34536,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34553,6 +34793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -34783,6 +35027,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35303,6 +35551,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37367,6 +37619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -37818,6 +38074,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39292,6 +39552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.86
@@ -39417,6 +39681,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40765,6 +41033,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42278,6 +42550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Doorway_01
       objectReference: {fileID: 0}
+    - target: {fileID: 7225593993079870516, guid: 9c79e447d7d515347833ecca874905ea,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42744,7 +43021,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 23.051785
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -42757,9 +43034,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
-  field of view: 60
+  field of view: 55
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -43261,6 +43538,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44434,6 +44715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.28
@@ -44496,6 +44781,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44888,6 +45177,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45699,6 +45992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 35.73
@@ -45887,6 +46184,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46202,6 +46503,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46663,6 +46968,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47528,6 +47837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -47716,6 +48029,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalScale.x
@@ -48359,6 +48676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -48923,6 +49244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 57.21
@@ -49048,6 +49373,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50727,6 +51056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.747253
@@ -51104,6 +51437,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52528,6 +52865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.23815373
@@ -53465,6 +53806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.73
@@ -53653,6 +53998,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54766,6 +55115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -55017,6 +55370,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56505,6 +56862,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -58380,6 +58741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.28
@@ -58568,6 +58933,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -58855,6 +59224,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -59581,6 +59954,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60381,6 +60758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.75
@@ -60569,6 +60950,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -60925,6 +61310,10 @@ PrefabInstance:
     - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_Name
       value: SD_Env_Wall_Half_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a, type: 3}
       propertyPath: m_LocalPosition.x
