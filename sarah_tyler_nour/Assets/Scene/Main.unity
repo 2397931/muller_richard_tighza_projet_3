@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -222,7 +226,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1834235833}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &658516 stripped
 Transform:
@@ -486,6 +494,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3909291}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4022129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1246755635}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4314188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -567,6 +581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -614,7 +632,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1947817949}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &4918247 stripped
 Transform:
@@ -830,6 +852,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1797,6 +1823,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 41868224}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &43825053 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 675311221}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &44445997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1945,6 +1977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.070007
@@ -1988,7 +2024,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1413331522}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &46401434 stripped
 Transform:
@@ -2716,6 +2756,12 @@ Transform:
   - {fileID: 397001274}
   m_Father: {fileID: 912540770}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &63102353 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1601832445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &64765954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3078,6 +3124,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4217,6 +4267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.447254
@@ -5342,6 +5396,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 118220087}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &119681289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1145110172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &122433768 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 176172, guid: 835caca5433f2a44b95816ffef0a5187,
+    type: 3}
+  m_PrefabInstance: {fileID: 1960104797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &122665488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5658,6 +5724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.058006
@@ -5701,13 +5771,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 971568692}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &126653217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
     type: 3}
   m_PrefabInstance: {fileID: 126653216}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &127056203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 705804166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &127239523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2108528401}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &127331786
 PrefabInstance:
@@ -6468,6 +6554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Crate_04
       objectReference: {fileID: 0}
+    - target: {fileID: 161946, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 420714, guid: 7098fb36b610961409481b19c3c89f3d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 56.47003
@@ -6597,6 +6687,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7001,6 +7095,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 155787664}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &156430358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151318, guid: 43eb78cec08539d419a51aac3b1bc4e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1375176618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &156534900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 923094476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &157798659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7063,6 +7169,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 445644, guid: dbc7189f1dbf0ff4891fbae496ea2b8a,
     type: 3}
   m_PrefabInstance: {fileID: 157798659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &158757231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 106528, guid: 10c188c55f489c641b5b069e669d223a,
+    type: 3}
+  m_PrefabInstance: {fileID: 736772129}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &159979387
 PrefabInstance:
@@ -7268,6 +7380,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7933,6 +8049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -8046,6 +8166,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a,
     type: 3}
   m_PrefabInstance: {fileID: 175226907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &176707406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1446340708}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &178675001
 PrefabInstance:
@@ -8939,6 +9065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -9485,6 +9615,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 200516633}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &200904017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1968300533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &202449667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9697,6 +9833,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11509,6 +11649,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 260423441}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &261425625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 655050648}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &264732867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12549,6 +12695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -12596,7 +12746,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1106329783}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &283687509 stripped
 Transform:
@@ -13008,6 +13162,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Table_01
       objectReference: {fileID: 0}
+    - target: {fileID: 143126, guid: a3003d4f4cc84184fb31aff870edab11, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 493128, guid: a3003d4f4cc84184fb31aff870edab11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.5
@@ -13204,6 +13362,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalScale.x
@@ -13779,6 +13941,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14514,6 +14680,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 420804, guid: e159e073d5c62fd43b0fcf3ff6cf29e8,
     type: 3}
   m_PrefabInstance: {fileID: 325925671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &326138354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 388619184}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &327030607 stripped
 GameObject:
@@ -15961,6 +16133,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 349736161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &352588327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1316369771}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &353021669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16099,6 +16277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.022015
@@ -16142,7 +16324,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1449526102}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &355146489 stripped
 Transform:
@@ -16161,6 +16347,10 @@ PrefabInstance:
     - target: {fileID: 168934, guid: 0fdb9b763c5371b4886126649bafbfcc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Alter_Good_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 168934, guid: 0fdb9b763c5371b4886126649bafbfcc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448072, guid: 0fdb9b763c5371b4886126649bafbfcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16387,6 +16577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.447254
@@ -16434,7 +16628,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1092744870}
   m_SourcePrefab: {fileID: 100100000, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
 --- !u!4 &359976932 stripped
 Transform:
@@ -16447,6 +16645,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 117844, guid: cf57d684ab010c24ab4c70f25f964306,
     type: 3}
   m_PrefabInstance: {fileID: 1831710509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &363287372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2096807432}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &366325659
 PrefabInstance:
@@ -17150,11 +17354,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1689427321}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &377211917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2077838717}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &377233488 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 181920, guid: 11cfe5a82cd433047ab229387a1e65df,
     type: 3}
   m_PrefabInstance: {fileID: 401600250}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &377981214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1814830067}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &378183758
 GameObject:
@@ -17542,6 +17758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -17589,7 +17809,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 388619188}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &388619185 stripped
 Transform:
@@ -17597,6 +17821,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 388619184}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &388619188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326138354}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1 &388778641
 GameObject:
   m_ObjectHideFlags: 0
@@ -17649,6 +17895,10 @@ PrefabInstance:
     - target: {fileID: 180826, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
       propertyPath: m_Name
       value: SD_Prop_Skull_Pile_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 180826, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 410444, guid: 42a24dc5c17bd814493040c2774660ba, type: 3}
       propertyPath: m_LocalScale.x
@@ -17982,6 +18232,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a,
     type: 3}
   m_PrefabInstance: {fileID: 396060287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &396872714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1741411924}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &397001273
 PrefabInstance:
@@ -18603,6 +18859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -19212,6 +19472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.05001
@@ -19255,7 +19519,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 605172037}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &425766406 stripped
 Transform:
@@ -20123,6 +20391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.04501
@@ -20166,7 +20438,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 655307784}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &450994276 stripped
 Transform:
@@ -20528,6 +20804,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 127772, guid: 51b012a9089d3cd45b50cc22fc305af9,
     type: 3}
   m_PrefabInstance: {fileID: 1279137654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &463352052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 492182739}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &465096347
 PrefabInstance:
@@ -21405,6 +21687,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 484262706}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &487206018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1363523922}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &487854239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21736,6 +22024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.070007
@@ -21779,7 +22071,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 492182743}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &492182740 stripped
 Transform:
@@ -21787,6 +22083,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 492182739}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &492182743
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463352052}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &493484151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21875,7 +22193,7 @@ Transform:
   m_GameObject: {fileID: 496988732}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 95.05, y: -20.423244, z: 3.94}
+  m_LocalPosition: {x: 94.78, y: -19.580244, z: 3.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21952,6 +22270,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a,
     type: 3}
   m_PrefabInstance: {fileID: 497000459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &497276857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1966142549}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &497353402
 PrefabInstance:
@@ -23248,6 +23572,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 92f805a89107afd4285abd9fd3797605, type: 3}
+--- !u!1 &524989233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 106528, guid: 10c188c55f489c641b5b069e669d223a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1213210046}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &526560658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23259,6 +23589,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23303,13 +23637,23 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1401614104}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &526560659 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
     type: 3}
   m_PrefabInstance: {fileID: 526560658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &527158624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1869965992}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &528129304
 PrefabInstance:
@@ -23970,6 +24314,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25424,6 +25772,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 572829024}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &573519735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 614583054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &575748712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25503,6 +25857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_Broken_04
       objectReference: {fileID: 0}
+    - target: {fileID: 174902, guid: fbb0da5a31eaf6f4b813a97684fcc41b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 423146, guid: fbb0da5a31eaf6f4b813a97684fcc41b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.07901
@@ -25546,7 +25904,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 174902, guid: fbb0da5a31eaf6f4b813a97684fcc41b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1116892791}
   m_SourcePrefab: {fileID: 100100000, guid: fbb0da5a31eaf6f4b813a97684fcc41b, type: 3}
 --- !u!4 &576989620 stripped
 Transform:
@@ -25994,6 +26356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.02201
@@ -26037,7 +26403,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 676706200}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &583289043 stripped
 Transform:
@@ -26056,6 +26426,10 @@ PrefabInstance:
     - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26100,7 +26474,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1214032473}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &584682203 stripped
 Transform:
@@ -26766,6 +27144,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 602564357}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &605172034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 425766405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &605172037
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605172034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &605193055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27106,6 +27512,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27731,6 +28141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.210007
@@ -27774,7 +28188,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 614583058}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &614583055 stripped
 Transform:
@@ -27782,6 +28200,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 614583054}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &614583058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573519735}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &616274756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29560,6 +30000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.2
@@ -29603,7 +30047,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 655050652}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &655050649 stripped
 Transform:
@@ -29611,6 +30059,56 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 655050648}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &655050652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261425625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
+--- !u!1 &655307781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 450994275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &655307784
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655307781}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &656447385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30893,6 +31391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.02201
@@ -30936,7 +31438,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 675311225}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &675311222 stripped
 Transform:
@@ -30944,6 +31450,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 675311221}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &675311225
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43825053}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &675953797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31208,6 +31736,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 676567668}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &676706197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 583289042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &676706200
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676706197}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &677253943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31420,6 +31976,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31708,6 +32268,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32230,6 +32794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.447254
@@ -32277,7 +32845,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1578649007}
   m_SourcePrefab: {fileID: 100100000, guid: 72ee938e36712134b9a16980629526a3, type: 3}
 --- !u!4 &689279450 stripped
 Transform:
@@ -33168,6 +33740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.08001
@@ -33211,7 +33787,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 705804170}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &705804167 stripped
 Transform:
@@ -33219,6 +33799,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 705804166}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &705804170
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127056203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1 &706168675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 166370, guid: b3c57ce720b895749a1d2d37d658812f,
@@ -33475,6 +34077,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 445644, guid: dbc7189f1dbf0ff4891fbae496ea2b8a,
     type: 3}
   m_PrefabInstance: {fileID: 707747310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &707780532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1627462865}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &708651797
 PrefabInstance:
@@ -33893,6 +34501,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34946,6 +35558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -34993,7 +35609,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1516157306}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &736212167 stripped
 Transform:
@@ -35076,6 +35696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Stairs_Stone_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 106528, guid: 10c188c55f489c641b5b069e669d223a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 436786, guid: 10c188c55f489c641b5b069e669d223a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7171599
@@ -35135,7 +35759,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 106528, guid: 10c188c55f489c641b5b069e669d223a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 736772133}
   m_SourcePrefab: {fileID: 100100000, guid: 10c188c55f489c641b5b069e669d223a, type: 3}
 --- !u!4 &736772130 stripped
 Transform:
@@ -35143,6 +35771,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 736772129}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &736772133
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158757231}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1e21d2cb57e315949a49b6021e53360c, type: 3}
 --- !u!1001 &736961985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35997,6 +36647,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d29b1819e09444b4a9f70ce6fed0db98, type: 3}
+--- !u!1 &750191123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1597552712}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &750480871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36059,6 +36715,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 490852, guid: 4ba830aba9b830d42851df024d33bf3a,
     type: 3}
   m_PrefabInstance: {fileID: 750480871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &751883892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1993994192}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &752314313
 PrefabInstance:
@@ -36919,6 +37581,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39124,6 +39790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -39878,6 +40548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -39925,7 +40599,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1019936749}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &826804760 stripped
 Transform:
@@ -40338,6 +41016,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42589,6 +43271,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: bdd89988e5f831943befb520816c5ad4, type: 3}
+--- !u!1 &877496998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1657122856}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &877738530
 GameObject:
   m_ObjectHideFlags: 0
@@ -43246,6 +43934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Crate_03
       objectReference: {fileID: 0}
+    - target: {fileID: 132660, guid: d6487cafe050ad94fb7235770972834e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 460754, guid: d6487cafe050ad94fb7235770972834e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 56.88032
@@ -43662,6 +44354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -43791,6 +44487,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44644,7 +45344,7 @@ Transform:
   m_GameObject: {fileID: 915187117}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 47.58, y: -0.043, z: 15.84}
+  m_LocalPosition: {x: 47.31, y: 0.8, z: 15.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -44865,6 +45565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.070007
@@ -44908,7 +45612,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 923094480}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &923094477 stripped
 Transform:
@@ -44916,6 +45624,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 923094476}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &923094480
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156534900}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &925888852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45222,6 +45952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.080006
@@ -45265,7 +45999,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1637687224}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &929555494 stripped
 Transform:
@@ -45689,6 +46427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -45736,7 +46478,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 981503746}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &942449728 stripped
 Transform:
@@ -47033,7 +47779,7 @@ Transform:
   m_GameObject: {fileID: 969488740}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: -20.423244, z: 21.43}
+  m_LocalPosition: {x: 2.3299994, y: -19.580244, z: 21.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -47057,6 +47803,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47105,7 +47855,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1339567518}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &969656202 stripped
 Transform:
@@ -47113,6 +47867,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 969656201}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &971568689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 126653216}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &971568692
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971568689}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &972251805
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47536,6 +48318,34 @@ Transform:
   - {fileID: 131954954}
   m_Father: {fileID: 1927737263}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &981503743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 942449727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &981503746
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981503743}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &982617147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47779,6 +48589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -47909,6 +48723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_Broken_01
       objectReference: {fileID: 0}
+    - target: {fileID: 136950, guid: abeede308550bf74c8b88218b6b3e39f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483442, guid: abeede308550bf74c8b88218b6b3e39f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.01001
@@ -47952,7 +48770,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 136950, guid: abeede308550bf74c8b88218b6b3e39f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1710123220}
   m_SourcePrefab: {fileID: 100100000, guid: abeede308550bf74c8b88218b6b3e39f, type: 3}
 --- !u!4 &990768289 stripped
 Transform:
@@ -48067,6 +48889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.925785
@@ -48110,7 +48936,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1614630608}
   m_SourcePrefab: {fileID: 100100000, guid: 72ee938e36712134b9a16980629526a3, type: 3}
 --- !u!4 &991922187 stripped
 Transform:
@@ -48129,6 +48959,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -49086,6 +49920,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 2b3b768c458280a41ac1a0e3fe40fb89, type: 3}
+--- !u!1 &1019936746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 826804759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1019936749
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019936746}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &1022572637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50297,6 +51159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Prop_Stone_Coffin_01
       objectReference: {fileID: 0}
+    - target: {fileID: 198044, guid: 06ddc49c92c02ad45977687a67899e90, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 420398, guid: 06ddc49c92c02ad45977687a67899e90, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4330996
@@ -51196,6 +52062,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52407,6 +53277,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1089415350}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1092744867 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1,
+    type: 3}
+  m_PrefabInstance: {fileID: 359976931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1092744870
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092744867}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9f7afc848d957654993b456bbe0d8a48, type: 3}
 --- !u!1001 &1093060510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53144,6 +54042,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a2c2db55561d5c74cac4e43f12ae3f97, type: 3}
+--- !u!1 &1106329780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 283687508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1106329783
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106329780}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &1106426220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54009,6 +54935,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1116357841}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1116892788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 174902, guid: fbb0da5a31eaf6f4b813a97684fcc41b,
+    type: 3}
+  m_PrefabInstance: {fileID: 576989619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1116892791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116892788}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 30b565b324c483c4cbfcec7d1aa82f2a, type: 3}
 --- !u!1001 &1119473765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54218,6 +55172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -54281,6 +55239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -54343,6 +55305,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54625,6 +55591,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -55543,6 +56513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.178
@@ -55590,7 +56564,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1145110176}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &1145110173 stripped
 Transform:
@@ -55598,6 +56576,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1145110172}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1145110176
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119681289}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &1145560223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56929,6 +57929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -56992,6 +57996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.447254
@@ -57039,7 +58047,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1644863611}
   m_SourcePrefab: {fileID: 100100000, guid: 72ee938e36712134b9a16980629526a3, type: 3}
 --- !u!4 &1164000073 stripped
 Transform:
@@ -57870,6 +58882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_StoneCircle_01
       objectReference: {fileID: 0}
+    - target: {fileID: 175728, guid: d038d166340e4514c92b68abb1268ed1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 432090, guid: d038d166340e4514c92b68abb1268ed1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 46.04
@@ -58377,6 +59393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.070007
@@ -58420,7 +59440,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1274389409}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1186510678 stripped
 Transform:
@@ -59636,6 +60660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.447254
@@ -59699,6 +60727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Stairs_Stone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 106528, guid: 10c188c55f489c641b5b069e669d223a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 436786, guid: 10c188c55f489c641b5b069e669d223a, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.7171599
@@ -59758,7 +60790,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 106528, guid: 10c188c55f489c641b5b069e669d223a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1213210050}
   m_SourcePrefab: {fileID: 100100000, guid: 10c188c55f489c641b5b069e669d223a, type: 3}
 --- !u!4 &1213210047 stripped
 Transform:
@@ -59766,6 +60802,56 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1213210046}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1213210050
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524989233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 1e21d2cb57e315949a49b6021e53360c, type: 3}
+--- !u!1 &1214032470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 584682202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1214032473
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214032470}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1216013338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59904,6 +60990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.447254
@@ -59951,7 +61041,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2145941722}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &1218742165 stripped
 Transform:
@@ -61364,6 +62458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Undead_Stairs_01
       objectReference: {fileID: 0}
+    - target: {fileID: 151318, guid: 43eb78cec08539d419a51aac3b1bc4e7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 468160, guid: 43eb78cec08539d419a51aac3b1bc4e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.124214
@@ -61407,7 +62505,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 151318, guid: 43eb78cec08539d419a51aac3b1bc4e7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1426256559}
   m_SourcePrefab: {fileID: 100100000, guid: 43eb78cec08539d419a51aac3b1bc4e7, type: 3}
 --- !u!4 &1234887889 stripped
 Transform:
@@ -61852,6 +62954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.070007
@@ -61895,7 +63001,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1246755639}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1246755636 stripped
 Transform:
@@ -61903,6 +63013,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1246755635}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1246755639
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4022129}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1 &1246963776 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 180826, guid: 42a24dc5c17bd814493040c2774660ba,
@@ -62296,6 +63428,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63263,6 +64399,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1272329203}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1274389406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1186510677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1274389409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274389406}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1274483412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63630,6 +64794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -63677,7 +64845,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1469304445}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &1281071368 stripped
 Transform:
@@ -65330,6 +66502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.05001
@@ -65373,7 +66549,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1316369775}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1316369772 stripped
 Transform:
@@ -65381,6 +66561,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1316369771}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1316369775
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352588327}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1 &1317330638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 125956, guid: 21e3daae9fca8bf46ab8ec4caf081705,
@@ -66212,6 +67414,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1339476128}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1339567515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 969656201}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1339567518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339567515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1 &1339924176 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190080, guid: e159e073d5c62fd43b0fcf3ff6cf29e8,
@@ -66987,6 +68217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.46
@@ -67034,7 +68268,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1363523926}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &1363523923 stripped
 Transform:
@@ -67042,6 +68280,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1363523922}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1363523926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487206018}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &1364386280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67401,6 +68661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Undead_Stairs_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 151318, guid: 43eb78cec08539d419a51aac3b1bc4e7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 468160, guid: 43eb78cec08539d419a51aac3b1bc4e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.064213
@@ -67444,7 +68708,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 151318, guid: 43eb78cec08539d419a51aac3b1bc4e7,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1375176622}
   m_SourcePrefab: {fileID: 100100000, guid: 43eb78cec08539d419a51aac3b1bc4e7, type: 3}
 --- !u!4 &1375176619 stripped
 Transform:
@@ -67452,6 +68720,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1375176618}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1375176622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156430358}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ba14f0a074518bf4abd2ffe346f9eadd, type: 3}
 --- !u!1001 &1376346146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68858,6 +70148,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1401367945}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1401614101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 526560658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1401614104
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401614101}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1403062507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69466,6 +70784,34 @@ Transform:
   - {fileID: 229862791}
   m_Father: {fileID: 912540770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1413331519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 46401433}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1413331522
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413331519}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1415109034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70035,6 +71381,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1424682571}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1426256556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 151318, guid: 43eb78cec08539d419a51aac3b1bc4e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1234887888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1426256559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426256556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ba14f0a074518bf4abd2ffe346f9eadd, type: 3}
 --- !u!1 &1427022545 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 77d720b7a195c354ea94abf340802be9,
@@ -71042,6 +72416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.23
@@ -71089,7 +72467,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1446340712}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &1446340709 stripped
 Transform:
@@ -71097,6 +72479,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1446340708}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1446340712
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176707406}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &1446608510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71227,6 +72631,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1448301237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1449526099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 355146488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1449526102
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449526099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1449792454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72227,6 +73659,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1467130851}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1469304442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1281071367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1469304445
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469304442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &1470182649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74143,6 +75603,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 7fe70f5c1d0c15b488051ac38053232f, type: 3}
+--- !u!1 &1516157303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 736212166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1516157306
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516157303}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &1516265063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77701,6 +79189,34 @@ Transform:
   - {fileID: 83715666}
   m_Father: {fileID: 376860789}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &1578649004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 689279449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1578649007
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578649004}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f69b7732d9ed9734dacf627afa5c5622, type: 3}
 --- !u!1 &1579913827
 GameObject:
   m_ObjectHideFlags: 0
@@ -78371,6 +79887,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -78985,6 +80505,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.16001
@@ -79032,7 +80556,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1597552716}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &1597552713 stripped
 Transform:
@@ -79040,6 +80568,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1597552712}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1597552716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750191123}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1 &1597869567
 GameObject:
   m_ObjectHideFlags: 0
@@ -79153,6 +80703,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1598072478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1599221926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1801089184}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1600341155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79258,6 +80814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -79305,7 +80865,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1601832449}
   m_SourcePrefab: {fileID: 100100000, guid: 72ee938e36712134b9a16980629526a3, type: 3}
 --- !u!4 &1601832446 stripped
 Transform:
@@ -79313,6 +80877,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1601832445}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1601832449
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63102353}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f69b7732d9ed9734dacf627afa5c5622, type: 3}
 --- !u!1001 &1601936398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79937,6 +81523,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1613916228}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1614630605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 991922186}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1614630608
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614630605}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f69b7732d9ed9734dacf627afa5c5622, type: 3}
 --- !u!1001 &1615135764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80685,6 +82299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.447254
@@ -80732,7 +82350,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1627462869}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &1627462866 stripped
 Transform:
@@ -80740,6 +82362,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1627462865}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1627462869
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707780532}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &1628148312
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -80897,6 +82541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.070007
@@ -80940,7 +82588,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2128089990}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1630703987 stripped
 Transform:
@@ -81573,6 +83225,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 896558a643efadc4fa81b65f58c570bb, type: 3}
+--- !u!1 &1637687221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 929555493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1637687224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637687221}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1639880822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82019,6 +83699,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9308d974b8d3b024882c1f534a6c8e40, type: 3}
+--- !u!1 &1644863608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1164000072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1644863611
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644863608}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f69b7732d9ed9734dacf627afa5c5622, type: 3}
 --- !u!1 &1646962555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 181920, guid: 11cfe5a82cd433047ab229387a1e65df,
@@ -82500,6 +84208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.038013
@@ -82543,7 +84255,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1657122860}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1657122857 stripped
 Transform:
@@ -82551,6 +84267,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1657122856}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1657122860
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877496998}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1 &1657656699
 GameObject:
   m_ObjectHideFlags: 0
@@ -82933,6 +84671,10 @@ PrefabInstance:
     - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -85121,6 +86863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.04001
@@ -85164,7 +86910,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2135923187}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1698894650 stripped
 Transform:
@@ -85183,6 +86933,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -85889,6 +87643,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1705554248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1706624200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1933035317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1708301673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 107648, guid: 3399df232015b5048a1d4cd47bfe3974,
@@ -85917,6 +87677,34 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9257e4cfd644b9a40876cc32454e3677, type: 3}
+--- !u!1 &1710123217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 136950, guid: abeede308550bf74c8b88218b6b3e39f,
+    type: 3}
+  m_PrefabInstance: {fileID: 990768288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1710123220
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710123217}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 6d6dcc9e210776a47a94f81d96a0a514, type: 3}
 --- !u!1001 &1712002547
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87862,6 +89650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.022015
@@ -87905,7 +89697,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1741411928}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1741411925 stripped
 Transform:
@@ -87913,6 +89709,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1741411924}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1741411928
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396872714}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1 &1741562908 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 153764, guid: da022e1561400c64ea55cb06af0f9f44,
@@ -89278,6 +91096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.04001
@@ -89321,7 +91143,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2067346376}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1773957090 stripped
 Transform:
@@ -90678,6 +92504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.45
@@ -90725,7 +92555,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1801089188}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &1801089185 stripped
 Transform:
@@ -90733,6 +92567,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1801089184}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1801089188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599221926}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1 &1801462556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 103084, guid: 0884236a20f5a204d8844843d88978bc,
@@ -90908,6 +92764,10 @@ PrefabInstance:
     - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -91358,6 +93218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.05001
@@ -91401,7 +93265,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1814830071}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1814830068 stripped
 Transform:
@@ -91409,6 +93277,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1814830067}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1814830071
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377981214}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1815948944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92407,6 +94297,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1833693455}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1834235830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 658515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1834235833
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834235830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &1837407901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92931,6 +94849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.447254
@@ -93038,6 +94960,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 868708b6ef5638342a78f408240ca15a, type: 3}
+--- !u!1 &1852352282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2100286126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854677817
 GameObject:
   m_ObjectHideFlags: 0
@@ -93765,6 +95693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.16001
@@ -93808,7 +95740,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1869965996}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1869965993 stripped
 Transform:
@@ -93816,6 +95752,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1869965992}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1869965996
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527158624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1870465376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95013,6 +96971,10 @@ PrefabInstance:
     - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -97303,6 +99265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.172
@@ -97346,7 +99312,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1933035321}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1933035318 stripped
 Transform:
@@ -97354,6 +99324,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1933035317}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1933035321
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706624200}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1935181294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97495,6 +99487,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -98032,6 +100028,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1944486657}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1947817946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4918246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1947817949
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947817946}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &1948521315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98332,6 +100356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_Broken_05
       objectReference: {fileID: 0}
+    - target: {fileID: 176172, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471116, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54.16
@@ -98379,7 +100407,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 176172, guid: 835caca5433f2a44b95816ffef0a5187,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1960104801}
   m_SourcePrefab: {fileID: 100100000, guid: 835caca5433f2a44b95816ffef0a5187, type: 3}
 --- !u!4 &1960104798 stripped
 Transform:
@@ -98387,6 +100419,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1960104797}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1960104801
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122433768}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 7b35ff00b93844446b47f1692302f6c1, type: 3}
 --- !u!1001 &1962904460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98722,6 +100776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_03 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 424652, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.05201
@@ -98765,7 +100823,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1966142553}
   m_SourcePrefab: {fileID: 100100000, guid: 8e49cba06dcdfc3439b1507dde6d28c0, type: 3}
 --- !u!4 &1966142550 stripped
 Transform:
@@ -98773,6 +100835,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1966142549}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1966142553
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497276857}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &1966472595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98878,6 +100962,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -98925,7 +101013,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1968300537}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &1968300534 stripped
 Transform:
@@ -98933,6 +101025,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1968300533}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1968300537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200904017}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &1968996938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100164,6 +102278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448988, guid: 72ee938e36712134b9a16980629526a3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.447254
@@ -100211,7 +102329,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 172604, guid: 72ee938e36712134b9a16980629526a3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1993994196}
   m_SourcePrefab: {fileID: 100100000, guid: 72ee938e36712134b9a16980629526a3, type: 3}
 --- !u!4 &1993994193 stripped
 Transform:
@@ -100219,6 +102341,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1993994192}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1993994196
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751883892}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f69b7732d9ed9734dacf627afa5c5622, type: 3}
 --- !u!1001 &1994261774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104369,6 +106513,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2065596163}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2067346373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1773957089}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2067346376
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067346373}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &2070448639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105045,6 +107217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.447254
@@ -105092,7 +107268,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2077838721}
   m_SourcePrefab: {fileID: 100100000, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
 --- !u!4 &2077838718 stripped
 Transform:
@@ -105100,6 +107280,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2077838717}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2077838721
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377211917}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &2078805066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105466,6 +107668,10 @@ PrefabInstance:
     - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400202, guid: 7d789c5bb85b14c4ab44d5c81a2965cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -105991,6 +108197,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_02
       objectReference: {fileID: 0}
+    - target: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 471058, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.447254
@@ -106038,7 +108248,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 157892, guid: 3ae87325551afc646a8927b8ba7d04c1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2096807436}
   m_SourcePrefab: {fileID: 100100000, guid: 3ae87325551afc646a8927b8ba7d04c1, type: 3}
 --- !u!4 &2096807433 stripped
 Transform:
@@ -106046,6 +108260,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2096807432}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2096807436
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363287372}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 9f7afc848d957654993b456bbe0d8a48, type: 3}
 --- !u!1001 &2096908297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106314,6 +108550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.218
@@ -106361,7 +108601,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2100286130}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &2100286127 stripped
 Transform:
@@ -106369,6 +108613,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2100286126}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2100286130
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852352282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1 &2100927102
 GameObject:
   m_ObjectHideFlags: 0
@@ -106676,6 +108942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 48.46
@@ -106802,6 +109072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SD_Env_Floor_Stone_ClearEdge_03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 464738, guid: 352d37cf490a80045b4736575b648af4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.228004
@@ -106849,7 +109123,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 199166, guid: 352d37cf490a80045b4736575b648af4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2108528405}
   m_SourcePrefab: {fileID: 100100000, guid: 352d37cf490a80045b4736575b648af4, type: 3}
 --- !u!4 &2108528402 stripped
 Transform:
@@ -106857,6 +109135,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2108528401}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &2108528405
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127239523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 38204588d9d5d7a45907d286a8dab8fd, type: 3}
 --- !u!1001 &2110749315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107731,6 +110031,34 @@ Transform:
   - {fileID: 60280640}
   m_Father: {fileID: 1566422008}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2128089987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1630703986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2128089990
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128089987}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &2129430512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108060,6 +110388,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2135108544}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2135923184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100032, guid: 8e49cba06dcdfc3439b1507dde6d28c0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1698894649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2135923187
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135923184}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 17b30b881e8a49747b2a7d869639d575, type: 3}
 --- !u!1001 &2137849456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -108452,6 +110808,34 @@ Transform:
   - {fileID: 647613535}
   m_Father: {fileID: 184036457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2145941719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 173794, guid: 7d789c5bb85b14c4ab44d5c81a2965cc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218742164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2145941722
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145941719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 043f0317a0b9736498ac63f6e826b528, type: 3}
 --- !u!1001 &2146022980
 PrefabInstance:
   m_ObjectHideFlags: 0
