@@ -18,6 +18,7 @@ public class ZoneAudio : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _audioSource.Play();
+            Debug.Log("nagasin");
             Debug.Log("Player entered zone - Audio Playing");
         }
     }
