@@ -991,6 +991,9 @@ GameObject:
   - component: {fileID: 1911528284}
   - component: {fileID: 1911528283}
   - component: {fileID: 1911528282}
+  - component: {fileID: 1911528288}
+  - component: {fileID: 1911528287}
+  - component: {fileID: 1911528286}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1081,6 +1084,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1911528286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911528281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a46db32c488a44985eec3637597166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  montantATrouver: {fileID: 383354378}
+  separateur: {fileID: 725250507}
+  montantTrouver: {fileID: 1072706297}
+  joueur: {fileID: 0}
+--- !u!114 &1911528287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911528281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1faf11600fd8c5c4bbcc8e18e38c502d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1911528288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911528281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28d0fa7aa7863e4fa3563aef52ed50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  argent: 0
+  objectifArgent: 20000
+  range: 3
+  mainVR: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
