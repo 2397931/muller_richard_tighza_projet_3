@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Key
+  - shield
+  - sword
+  - lantern
   layers:
   - Default
   - TransparentFX
