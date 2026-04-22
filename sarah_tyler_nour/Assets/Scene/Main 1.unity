@@ -3658,8 +3658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3309cff5a339748ae53ecc3e5638e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  argent: 0
-  shield: {fileID: 862225352}
+  argent: 1835
+  lantern: {fileID: 0}
 --- !u!1001 &86593732
 PrefabInstance:
   m_ObjectHideFlags: 0
