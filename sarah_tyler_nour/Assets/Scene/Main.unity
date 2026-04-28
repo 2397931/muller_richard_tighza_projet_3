@@ -147405,7 +147405,6 @@ SceneRoots:
   - {fileID: 811516433}
   - {fileID: 2010615804}
   - {fileID: 2065063479}
-<<<<<<< Updated upstream
   - {fileID: 2121448410}
   - {fileID: 1326390641}
   - {fileID: 1891484601}
@@ -147414,9 +147413,4 @@ SceneRoots:
   - {fileID: 301658798}
   - {fileID: 1885435456}
   - {fileID: 41954725}
-=======
-  - {fileID: 27633504}
-  - {fileID: 11974291}
-  - {fileID: 941390676}
-  - {fileID: 1225429114}
->>>>>>> Stashed changes
+
