@@ -12,17 +12,21 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        BoxDialogue.SetActive(false);
+        BoxDialogue.SetActive(true);
+    }
+
+    public void StartDialogue(Dialogue dialogue)
+    {
+        Debug.Log("StartDialogue CALLED");
+
+        BoxDialogue.SetActive(true);
+
+        nameText.text = dialogue.speakerName;
+        dialogueText.text = dialogue.sentences[0];
     }
 
     public void EndDialogue()
     {
         BoxDialogue.SetActive(false);
-    }
-
-    public void StartDialogue(Dialogue dialogue)
-    {
-        nameText.text = dialogue.name;
-        dialogueText.text = dialogue.sentences[0];
     }
 }

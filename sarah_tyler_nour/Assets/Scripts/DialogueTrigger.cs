@@ -13,6 +13,7 @@ public class DialogueTrigger : MonoBehaviour
         {
             dialogueManager.StartDialogue(dialogue);
         }
+
     }
 
     private void OnTriggerExit(Collider other)
@@ -22,4 +23,5 @@ public class DialogueTrigger : MonoBehaviour
             dialogueManager.EndDialogue();
         }
     }
+
 }
