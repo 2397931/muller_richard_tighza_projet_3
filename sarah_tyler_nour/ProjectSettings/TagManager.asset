@@ -8,6 +8,7 @@ TagManager:
   - shield
   - sword
   - lantern
+  - RightController
   layers:
   - Default
   - TransparentFX
