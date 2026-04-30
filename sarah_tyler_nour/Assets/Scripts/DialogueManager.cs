@@ -25,6 +25,16 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = dialogue.sentences[0];
     }
 
+    public void DisplayNextSentence(Dialogue dialogue)
+    {
+        if (dialogue.sentences.Length == 0)
+        {
+            EndDialogue();
+            return;
+        }
+
+        dialogueText.text = dialogue.sentences[0];
+    }
     public void EndDialogue()
     {
         BoxDialogue.SetActive(false);
