@@ -26,7 +26,7 @@ public class coinscript : MonoBehaviour
         {
             audioSource.PlayOneShot(coinSound);
             other.gameObject.SetActive(false);
-            count++;
+            count += 100;
         }
     }
 }
