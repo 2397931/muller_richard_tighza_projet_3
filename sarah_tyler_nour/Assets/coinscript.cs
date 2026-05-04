@@ -4,16 +4,29 @@ using UnityEngine;
 
 public class coinscript : MonoBehaviour
 {
- 
-public int count;
+    public int count;
+    public AudioClip coinSound;
 
-   private void OnTriggerExit(Collider other)
-   {
-    if(other.tag == "coin")
+    private AudioSource audioSource;
+
+    private void Start()
     {
-        other.gameObject.SetActive(false);
-        count ++;
+ 
+        audioSource = GetComponent<AudioSource>();
+
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
-   }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("coin"))
+        {
+            audioSource.PlayOneShot(coinSound);
+            other.gameObject.SetActive(false);
+            count++;
+        }
+    }
 }
