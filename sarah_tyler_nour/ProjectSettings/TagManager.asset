@@ -9,6 +9,7 @@ TagManager:
   - sword
   - lantern
   - RightController
+  - coin
   layers:
   - Default
   - TransparentFX
