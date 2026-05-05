@@ -10,6 +10,7 @@ TagManager:
   - lantern
   - RightController
   - coin
+  - DropObject
   layers:
   - Default
   - TransparentFX
