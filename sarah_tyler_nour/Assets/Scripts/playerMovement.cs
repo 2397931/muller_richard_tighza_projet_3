@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// script pour le déplacement du joueur, le jump, la gravité,
+// le head bob, la caméra et l'effet quand on attérit après jump
+
 public class playerMovement : MonoBehaviour
 {
     public CharacterController controller;
@@ -47,7 +50,7 @@ public class playerMovement : MonoBehaviour
     public float landingDip = 0.1f;
     public float landingSpeed = 6f;
     private float landingOffset;
-
+// enregistre les positions de la caméra pour le head bob et l'attérissage
     void Start()
     {
         defaultYPos = cameraHolder.localPosition.y;
