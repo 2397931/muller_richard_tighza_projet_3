@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class DialogueManager : MonoBehaviour
@@ -10,31 +9,39 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public GameObject BoxDialogue;
 
+    private int index;
+    private string[] sentences;
+
     void Start()
     {
-        BoxDialogue.SetActive(true);
+        BoxDialogue.SetActive(false);
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
-        Debug.Log("StartDialogue CALLED");
-
         BoxDialogue.SetActive(true);
 
         nameText.text = dialogue.speakerName;
-        dialogueText.text = dialogue.sentences[0];
+
+        sentences = dialogue.sentences;
+        index = 0;
+
+        dialogueText.text = sentences[index];
     }
 
-    public void DisplayNextSentence(Dialogue dialogue)
+    public void DisplayNextSentence()
     {
-        if (dialogue.sentences.Length == 0)
+        index++;
+
+        if (index >= sentences.Length)
         {
             EndDialogue();
             return;
         }
 
-        dialogueText.text = dialogue.sentences[0];
+        dialogueText.text = sentences[index];
     }
+
     public void EndDialogue()
     {
         BoxDialogue.SetActive(false);

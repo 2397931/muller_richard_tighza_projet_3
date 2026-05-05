@@ -1002,7 +1002,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 39.766003, y: 22.703243}
+  m_AnchoredPosition: {x: 39.766003, y: 22.45}
   m_SizeDelta: {x: 1099, y: 618}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &12022563
@@ -22211,8 +22211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.9, y: -47.7}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 93.6, y: -134.02}
+  m_SizeDelta: {x: 1019.4, y: 276.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375343675
 MonoBehaviour:
@@ -32403,7 +32403,7 @@ RectTransform:
   m_GameObject: {fileID: 554149024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9723, y: 1.9723, z: 1.9723}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1391994065}
@@ -32411,7 +32411,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 444, y: -277}
+  m_AnchoredPosition: {x: 374.2, y: -268.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554149026
@@ -32483,7 +32483,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -82244,7 +82244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Marchand
   sentences:
-  - alllo visiteur
+  - ALOOOOOOOOOOOOOOOOOOOOOOOO
+  - "Si tu veux progresser, tu devras ramasser des pi\xE8ces \xE0 travers le monde."
 --- !u!4 &1225429114
 Transform:
   m_ObjectHideFlags: 0
@@ -94975,7 +94976,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: continuer
+  m_text: Continuer >>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -94984,8 +94985,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -114868,7 +114869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6132076, g: 0.2285066, b: 0.2285066, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -121788,10 +121789,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1701052283}
-    - targetCorrespondingSourceObject: {fileID: 7225593993079870516, guid: 9c79e447d7d515347833ecca874905ea,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1701052286}
   m_SourcePrefab: {fileID: 100100000, guid: 9c79e447d7d515347833ecca874905ea, type: 3}
 --- !u!4 &1701052280 stripped
 Transform:
@@ -121821,27 +121818,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 7d9c1734b6058b544a9a230d4f453b09, type: 3}
---- !u!65 &1701052286
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623256567}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 5.000001, y: 5.0428944, z: 0.28874338}
-  m_Center: {x: -0.0000019073486, y: 2.5214472, z: -0.0000038146973}
 --- !u!1001 &1701713462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -134980,8 +134956,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -202.5, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -156.31, y: 0}
+  m_SizeDelta: {x: 292.49, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1869478991
 MonoBehaviour:
@@ -135012,8 +134988,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278252543
+  m_fontColor: {r: 1, g: 0.9517946, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -150545,7 +150521,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 77d720b7a195c354ea94abf340802be9, type: 3}
 --- !u!1001 &2051753786
