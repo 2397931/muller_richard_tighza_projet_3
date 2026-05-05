@@ -24308,7 +24308,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 811516434}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -51849,10 +51849,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 811516432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1046cf8217b2eaf44a2221cc5932d838, type: 3}
+  m_Script: {fileID: 11500000, guid: 680dc9ad9a739c34e9433be2acf91bf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 1981069720}
+  boutonMenu:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Bouton Menu
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: de379869-9b1d-4a5b-8d03-9d8f7b0542dc
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2957508209209233644, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  canvaMenu: {fileID: 1981069720}
 --- !u!1001 &813925970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62861,7 +62874,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 811516434}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
@@ -70923,7 +70936,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 811516434}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
@@ -158818,7 +158831,6 @@ SceneRoots:
   - {fileID: 610218019}
   - {fileID: 1854677818}
   - {fileID: 1283007439}
-  - {fileID: 811516433}
   - {fileID: 2010615804}
   - {fileID: 2065063479}
   - {fileID: 2121448410}
@@ -158832,3 +158844,4 @@ SceneRoots:
   - {fileID: 27633504}
   - {fileID: 364444579}
   - {fileID: 1113490358}
+  - {fileID: 811516433}
