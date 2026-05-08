@@ -27,12 +27,12 @@ public class ZoneDepot : MonoBehaviour
 
     void CheckWin()
     {
-        // Win when 1 object enters
-        if (!hasWon && objectsInside.Count >= 1)
+  
+        if (!hasWon && objectsInside.Count >= 10)
         {
             hasWon = true;
 
-            Debug.Log("YOU WIN!");
+            Debug.Log("Victoire");
         }
     }
 }
