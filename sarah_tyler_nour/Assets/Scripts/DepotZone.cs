@@ -4,15 +4,42 @@ using UnityEngine;
 
 public class DepotZone : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+  private const int objetsRequis = 2;
+
+    private HashSet<GameObject> objetsDansZone = new HashSet<GameObject>();
+
+    private bool victoire = false;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag("DropObject"))
+        {
+            objetsDansZone.Add(other.gameObject);
+
+            Debug.Log("Objet déposé : " + other.name);
+
+            VerifierVictoire();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag("DropObject"))
+        {
+            objetsDansZone.Remove(other.gameObject);
+
+            Debug.Log("Objet retiré : " + other.name);
+        }
     }
+
+    private void VerifierVictoire()
+    {
+        if (!victoire && objetsDansZone.Count >= objetsRequis)
+        {
+            victoire = true;
+
+            Debug.Log("VICTOIRE !");
+        }
+    }
+
 }

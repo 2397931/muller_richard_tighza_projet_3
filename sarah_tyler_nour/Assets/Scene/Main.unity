@@ -59140,35 +59140,39 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1432390240}
+    m_TransformParent: {fileID: 2131259911}
     m_Modifications:
     - target: {fileID: 198924, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_Name
       value: SD_Prop_CandleStand_02
       objectReference: {fileID: 0}
+    - target: {fileID: 198924, guid: 905f5d361cad193469ae394765266d9a, type: 3}
+      propertyPath: m_TagString
+      value: DropObject
+      objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.61109
+      value: 0.82173276
       objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.61109
+      value: 0.82173276
       objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.61109
+      value: 0.8217327
       objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.863255
+      value: 2.6135979
       objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.853245
+      value: -1.0393755
       objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.244024
+      value: 22.299221
       objectReference: {fileID: 0}
     - target: {fileID: 443456, guid: 905f5d361cad193469ae394765266d9a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -98233,7 +98237,6 @@ Transform:
   - {fileID: 746725362}
   - {fileID: 1612841917}
   - {fileID: 1347446850}
-  - {fileID: 905324117}
   - {fileID: 381855954}
   - {fileID: 301658802}
   - {fileID: 1885435458}
@@ -130260,7 +130263,7 @@ Transform:
   m_GameObject: {fileID: 1798813852}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 16.74, y: 0, z: -5.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -149016,6 +149019,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2024292494}
   - component: {fileID: 2024292495}
+  - component: {fileID: 2024292496}
   m_Layer: 0
   m_Name: ZoneDepot
   m_TagString: Untagged
@@ -149059,6 +149063,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2024292496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024292493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ea2e75cc421a3479438f550e8ee905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2024767901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -158517,7 +158533,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2131259911}
-  - component: {fileID: 2131259912}
   m_Layer: 0
   m_Name: ObjetsDepot
   m_TagString: Untagged
@@ -158541,20 +158556,9 @@ Transform:
   - {fileID: 1798813853}
   - {fileID: 1119960455}
   - {fileID: 1529075357}
+  - {fileID: 905324117}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2131259912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131259910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 406c646e2532e2242b8d308b6099f73f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2131757491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 172634, guid: 4ba830aba9b830d42851df024d33bf3a,
