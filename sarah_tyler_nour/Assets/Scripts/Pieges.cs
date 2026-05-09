@@ -10,7 +10,18 @@ public class Pieges : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.transform.position = startPoint.position;
+            CharacterController cc = other.GetComponent<CharacterController>();
+
+            if (cc != null)
+            {
+                cc.enabled = false;
+                other.transform.position = startPoint.position;
+                cc.enabled = true;
+            }
+            else
+            {
+                other.transform.position = startPoint.position;
+            }
         }
     }
 }
