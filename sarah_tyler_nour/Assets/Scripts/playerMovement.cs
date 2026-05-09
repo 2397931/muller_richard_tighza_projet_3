@@ -50,7 +50,8 @@ public class playerMovement : MonoBehaviour
     public float landingDip = 0.1f;
     public float landingSpeed = 6f;
     private float landingOffset;
-// enregistre les positions de la caméra pour le head bob et l'attérissage
+
+    // enregistre les positions de la caméra pour le head bob et l'attérissage
     void Start()
     {
         defaultYPos = cameraHolder.localPosition.y;
@@ -59,22 +60,23 @@ public class playerMovement : MonoBehaviour
 
     void Update()
     {
-
         wasGrounded = isGrounded;
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        isGrounded = Physics.CheckSphere(
+            groundCheck.position,
+            groundDistance,
+            groundMask
+        );
 
         if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
 
-
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         bool isSprinting = Input.GetKey(KeyCode.LeftShift);
         float targetSpeed = isSprinting ? sprintSpeed : walkSpeed;
-
 
         Vector3 forward = cameraHolder.forward;
         Vector3 right = cameraHolder.right;
@@ -85,42 +87,58 @@ public class playerMovement : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
-        Vector3 targetMove = (forward * z + right * x).normalized * targetSpeed;
+        Vector3 targetMove =
+            (forward * z + right * x).normalized * targetSpeed;
 
+        float accel =
+            (targetMove.magnitude > 0.1f)
+            ? acceleration
+            : deceleration;
 
-        float accel = (targetMove.magnitude > 0.1f) ? acceleration : deceleration;
-        currentVelocity = Vector3.Lerp(currentVelocity, targetMove, accel * Time.deltaTime);
+        currentVelocity = Vector3.Lerp(
+            currentVelocity,
+            targetMove,
+            accel * Time.deltaTime
+        );
 
         controller.Move(currentVelocity * Time.deltaTime);
 
-
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            velocity.y = Mathf.Sqrt(
+                jumpHeight * -2f * gravity
+            );
         }
-
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-
 
         if (!wasGrounded && isGrounded)
         {
             landingOffset = -landingDip;
         }
 
-        landingOffset = Mathf.Lerp(landingOffset, 0f, Time.deltaTime * landingSpeed);
+        landingOffset = Mathf.Lerp(
+            landingOffset,
+            0f,
+            Time.deltaTime * landingSpeed
+        );
 
-
-        bool isMoving = currentVelocity.magnitude > 0.1f && isGrounded;
+        bool isMoving =
+            currentVelocity.magnitude > 0.1f && isGrounded;
 
         float bobY = 0f;
         float bobX = 0f;
 
         if (isMoving)
         {
-            float speedMultiplier = isSprinting ? 1.6f : 1f;
-            timer += Time.deltaTime * bobSpeed * speedMultiplier;
+            float speedMultiplier =
+                isSprinting ? 1.6f : 1f;
+
+            timer +=
+                Time.deltaTime *
+                bobSpeed *
+                speedMultiplier;
 
             bobY = Mathf.Sin(timer) * bobAmount;
             bobX = Mathf.Cos(timer / 2f) * bobSideAmount;
@@ -130,10 +148,13 @@ public class playerMovement : MonoBehaviour
             timer = 0;
         }
 
-
         float targetTilt = -x * tiltAmount;
-        currentTilt = Mathf.Lerp(currentTilt, targetTilt, Time.deltaTime * tiltSpeed);
 
+        currentTilt = Mathf.Lerp(
+            currentTilt,
+            targetTilt,
+            Time.deltaTime * tiltSpeed
+        );
 
         Vector3 targetPos = new Vector3(
             defaultXPos + bobX,
@@ -147,6 +168,10 @@ public class playerMovement : MonoBehaviour
             Time.deltaTime * 8f
         );
 
-        cameraHolder.localRotation = Quaternion.Euler(0f, 0f, currentTilt);
+        cameraHolder.localRotation = Quaternion.Euler(
+            0f,
+            0f,
+            currentTilt
+        );
     }
 }
