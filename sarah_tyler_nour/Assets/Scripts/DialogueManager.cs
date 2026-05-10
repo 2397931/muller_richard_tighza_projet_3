@@ -19,6 +19,8 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+
+
         BoxDialogue.SetActive(true);
 
         nameText.text = dialogue.speakerName;
@@ -27,10 +29,20 @@ public class DialogueManager : MonoBehaviour
         index = 0;
 
         dialogueText.text = sentences[index];
+
+        Debug.Log("Zone Boutique entré");
+        return;
     }
 
     public void DisplayNextSentence()
     {
+
+        if (sentences == null || sentences.Length == 0)
+        {
+            Debug.LogWarning("No dialogue active!");
+            return;
+        }
+
         index++;
 
         if (index >= sentences.Length)
@@ -45,5 +57,16 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         BoxDialogue.SetActive(false);
+
+        Debug.Log("Zone Boutique sortie");
+        return;
+    }
+
+    void Update()
+    {
+        if (BoxDialogue.activeSelf && Input.GetKeyDown(KeyCode.Z))
+        {
+            DisplayNextSentence();
+        }
     }
 }
