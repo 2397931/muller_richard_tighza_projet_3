@@ -12,8 +12,9 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             dialogueManager.StartDialogue(dialogue);
-        }
 
+            dialogueManager.objectiveUI.ShowObjective("Parle au marchand", 1f);
+        }
     }
 
     private void OnTriggerExit(Collider other) 

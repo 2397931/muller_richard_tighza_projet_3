@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
     public GameObject BoxDialogue;
+    public ObjectiveUI objectiveUI;
 
     private int index;
     private string[] sentences;
@@ -58,8 +59,9 @@ public class DialogueManager : MonoBehaviour
     {
         BoxDialogue.SetActive(false);
 
+        objectiveUI.ShowObjective("Ramasse les objets dans le donjon", 4f);
+
         Debug.Log("Zone Boutique sortie");
-        return;
     }
 
     void Update()
