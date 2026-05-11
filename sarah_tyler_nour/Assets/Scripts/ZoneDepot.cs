@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ZoneDepot : MonoBehaviour
 {
+    public int count;
     private HashSet<GameObject> objectsInside = new HashSet<GameObject>();
 
     private bool hasWon = false;
