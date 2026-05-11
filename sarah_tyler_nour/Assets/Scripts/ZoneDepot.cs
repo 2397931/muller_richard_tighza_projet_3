@@ -28,7 +28,7 @@ public class ZoneDepot : MonoBehaviour
     void CheckWin()
     {
   
-        if (!hasWon && objectsInside.Count >= 10)
+        if (!hasWon && objectsInside.Count >= 7)
         {
             hasWon = true;
 
