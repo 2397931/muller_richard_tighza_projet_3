@@ -5,6 +5,10 @@ public class ZoneDepot : MonoBehaviour
 {
     public int count;
     public GameObject UIVictoire;
+
+
+    public ScorePersistant pointage;
+
     private HashSet<GameObject> objectsInside = new HashSet<GameObject>();
 
     private bool hasWon = false;
@@ -13,9 +17,22 @@ public class ZoneDepot : MonoBehaviour
     {
         if (other.CompareTag("DropObject"))
         {
-            objectsInside.Add(other.gameObject);
+            
+            if (!objectsInside.Contains(other.gameObject))
+            {
+             
+                if (count < 7)
+                {
+                    count++;
+                }
 
-            CheckWin();
+                objectsInside.Add(other.gameObject);
+
+                // Update score UI
+                pointage.OnChangerPointage(count);
+
+                CheckWin();
+            }
         }
     }
 
@@ -29,12 +46,16 @@ public class ZoneDepot : MonoBehaviour
 
     void CheckWin()
     {
-  
         if (!hasWon && objectsInside.Count >= 7)
         {
             hasWon = true;
 
             Debug.Log("Victoire");
+
+            if (UIVictoire != null)
+            {
+                UIVictoire.SetActive(true);
+            }
         }
     }
 }
