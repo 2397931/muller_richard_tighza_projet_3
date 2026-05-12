@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.XR;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -77,9 +78,13 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
-        if (BoxDialogue.activeSelf && Input.GetKeyDown(KeyCode.Z))
+        InputDevice rightHand = InputDevices.GetDeviceAtXRNode(XRNode.RightHand);
+
+        bool aButtonPressed;
+
+        if (rightHand.TryGetFeatureValue(CommonUsages.primaryButton, out aButtonPressed) && aButtonPressed)
         {
-            DisplayNextSentence();
+            // action
         }
     }
 }
