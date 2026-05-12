@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// script pour le déplacement du joueur, le jump, la gravité,
-// le head bob, la caméra et l'effet quand on attérit après jump
 
 public class playerMovement : MonoBehaviour
 {
@@ -50,7 +48,10 @@ public class playerMovement : MonoBehaviour
     public float landingDip = 0.1f;
     public float landingSpeed = 6f;
     private float landingOffset;
-// enregistre les positions de la caméra pour le head bob et l'attérissage
+
+    [Header("Footsteps")]
+    public AudioSource footstepAudio;
+
     void Start()
     {
         defaultYPos = cameraHolder.localPosition.y;
@@ -59,7 +60,6 @@ public class playerMovement : MonoBehaviour
 
     void Update()
     {
-
         wasGrounded = isGrounded;
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -68,13 +68,11 @@ public class playerMovement : MonoBehaviour
             velocity.y = -2f;
         }
 
-
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
         bool isSprinting = Input.GetKey(KeyCode.LeftShift);
         float targetSpeed = isSprinting ? sprintSpeed : walkSpeed;
-
 
         Vector3 forward = cameraHolder.forward;
         Vector3 right = cameraHolder.right;
@@ -87,22 +85,18 @@ public class playerMovement : MonoBehaviour
 
         Vector3 targetMove = (forward * z + right * x).normalized * targetSpeed;
 
-
         float accel = (targetMove.magnitude > 0.1f) ? acceleration : deceleration;
         currentVelocity = Vector3.Lerp(currentVelocity, targetMove, accel * Time.deltaTime);
 
         controller.Move(currentVelocity * Time.deltaTime);
-
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 
-
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
-
 
         if (!wasGrounded && isGrounded)
         {
@@ -111,8 +105,24 @@ public class playerMovement : MonoBehaviour
 
         landingOffset = Mathf.Lerp(landingOffset, 0f, Time.deltaTime * landingSpeed);
 
-
         bool isMoving = currentVelocity.magnitude > 0.1f && isGrounded;
+
+
+        if (isMoving)
+        {
+            if (!footstepAudio.isPlaying)
+            {
+                float basePitch = isSprinting ? 1.2f : 1f;
+
+                footstepAudio.pitch = Random.Range(basePitch - 0.05f, basePitch + 0.05f);
+
+                footstepAudio.Play();
+            }
+        }
+        else
+        {
+            footstepAudio.Stop();
+        }
 
         float bobY = 0f;
         float bobX = 0f;
@@ -130,10 +140,8 @@ public class playerMovement : MonoBehaviour
             timer = 0;
         }
 
-
         float targetTilt = -x * tiltAmount;
         currentTilt = Mathf.Lerp(currentTilt, targetTilt, Time.deltaTime * tiltSpeed);
-
 
         Vector3 targetPos = new Vector3(
             defaultXPos + bobX,

@@ -8,13 +8,13 @@ public class ZoneAudio : MonoBehaviour
 
     void Start()
     {
-        // Link the script to the AudioSource on this object
+
         _audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        // Only play if the object entering has the "Player" tag
+
         if (other.CompareTag("Player"))
         {
             _audioSource.Play();
@@ -25,7 +25,7 @@ public class ZoneAudio : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        // Stop playing when the player leaves
+
         if (other.CompareTag("Player"))
         {
             _audioSource.Stop();

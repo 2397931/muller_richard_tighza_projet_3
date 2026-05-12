@@ -10,6 +10,9 @@ public class DialogueManager : MonoBehaviour
     public GameObject BoxDialogue;
     public ObjectiveUI objectiveUI;
 
+
+    public AudioSource dialogueAudio;
+
     private int index;
     private string[] sentences;
 
@@ -20,8 +23,6 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-
-
         BoxDialogue.SetActive(true);
 
         nameText.text = dialogue.speakerName;
@@ -31,13 +32,15 @@ public class DialogueManager : MonoBehaviour
 
         dialogueText.text = sentences[index];
 
+
+        dialogueAudio.pitch = Random.Range(0.97f, 1.03f);
+        dialogueAudio.Play();
+
         Debug.Log("Zone Boutique entré");
-        return;
     }
 
     public void DisplayNextSentence()
     {
-
         if (sentences == null || sentences.Length == 0)
         {
             Debug.LogWarning("No dialogue active!");
@@ -52,12 +55,20 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+
+        dialogueAudio.pitch = Random.Range(0.97f, 1.03f);
+        dialogueAudio.Play();
+
         dialogueText.text = sentences[index];
     }
 
     public void EndDialogue()
     {
         BoxDialogue.SetActive(false);
+
+
+        dialogueAudio.pitch = Random.Range(0.97f, 1.03f);
+        dialogueAudio.Play();
 
         objectiveUI.ShowObjective("Ramasse les objets dans le donjon", 4f);
 
