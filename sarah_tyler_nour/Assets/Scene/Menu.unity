@@ -319,9 +319,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 31771338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.5, y: 7.3}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 14.2, y: -27}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87089435
@@ -344,18 +344,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "La derni\xE8re"
+  m_text: Prison des
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281884725
-  m_fontColor: {r: 0.20784315, g: 0.37647063, b: 0.21960786, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -372,8 +372,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.3
-  m_fontSizeBase: 24.3
+  m_fontSize: 29.9
+  m_fontSizeBase: 29.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -817,9 +817,9 @@ RectTransform:
   - {fileID: 536265346}
   m_Father: {fileID: 31771338}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.82, y: -30}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 2.4, y: 20}
   m_SizeDelta: {x: 66.501, y: 25.702}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409758975
@@ -1250,7 +1250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.69759846, y: 1}
-  m_AnchoredPosition: {x: 24.19942, y: 0.0000009536743}
+  m_AnchoredPosition: {x: 24.19942, y: 0}
   m_SizeDelta: {x: 48.398857, y: 0.00000011920929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536265347
@@ -1881,7 +1881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.48, y: -9.899998}
+  m_AnchoredPosition: {x: 33.1, y: -9.899998}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764327461
@@ -1906,8 +1906,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: chance
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2499,7 +2499,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.63, y: -9.899998}
+  m_AnchoredPosition: {x: 30.7, y: 1.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &929230517
@@ -2522,10 +2522,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: flamme
+  m_text: Ombres
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2550,8 +2550,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.3
-  m_fontSizeBase: 24.3
+  m_fontSize: 31.47
+  m_fontSizeBase: 31.47
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2659,8 +2659,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Le '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2831,8 +2831,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2964,9 +2964,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " dans une boutique ( par exemple en achetant une lampe de poche), dans
-    le but d'amasser suffisamment d'argent pour ouvrir un coffre contenant la cl\xE9
-    qui te permettra de t'\xE9chapper"
+  m_text: "Avec un \xE9quipement limit\xE9, comme un briquet, tu devras survivre
+    aux dangers du donjon et r\xE9cup\xE9rer tous les objets n\xE9cessaires pour
+    r\xE9ussir \xE0 t\u2019\xE9chapper du donjon."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45976f31c67cf5b438c889b9693070e1, type: 2}
   m_sharedMaterial: {fileID: 3740075581605354644, guid: 45976f31c67cf5b438c889b9693070e1,
@@ -3250,9 +3250,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Un jeu d'\xE9vasion en VR o\xF9 tu progresses dans un donjon sombre avec
-    de l'\xE9quipement limit\xE9s, comme un briquet, gagnes de l'argent pour am\xE9liorer
-    ton \xE9quipement "
+  m_text: "Un jeu d\u2019\xE9vasion en VR o\xF9 tu explores un donjon sombre rempli
+    de pi\xE8ges afin de retrouver plusieurs objets cach\xE9s."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45976f31c67cf5b438c889b9693070e1, type: 2}
   m_sharedMaterial: {fileID: 3740075581605354644, guid: 45976f31c67cf5b438c889b9693070e1,
@@ -3459,10 +3458,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "R\xE9sum\xE9"
+  m_text: But
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4172,7 +4171,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593240586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.28413033, y: 0.28413033, z: 0.28413033}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4180,7 +4179,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.5, y: 7.3}
+  m_AnchoredPosition: {x: 12.5, y: 20.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593240588
@@ -4205,8 +4204,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bonne
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4231,8 +4230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.3
-  m_fontSizeBase: 45.3
+  m_fontSize: 65
+  m_fontSizeBase: 65
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4608,8 +4607,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Les
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 95aee7b24ec9e324b90540bec070032a, type: 2}
-  m_sharedMaterial: {fileID: -6680051307495169785, guid: 95aee7b24ec9e324b90540bec070032a,
+  m_fontAsset: {fileID: 11400000, guid: c0274e6b88b56b44eb8961c69f1355fa, type: 2}
+  m_sharedMaterial: {fileID: 8753838526498110698, guid: c0274e6b88b56b44eb8961c69f1355fa,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
