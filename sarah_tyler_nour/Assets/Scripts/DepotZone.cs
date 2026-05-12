@@ -5,6 +5,7 @@ using UnityEngine;
 public class DepotZone : MonoBehaviour
 {
   private const int objetsRequis = 2;
+  public GameObject UIVictoire;
 
     private HashSet<GameObject> objetsDansZone = new HashSet<GameObject>();
 

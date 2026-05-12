@@ -4,6 +4,7 @@ using UnityEngine;
 public class ZoneDepot : MonoBehaviour
 {
     public int count;
+    public GameObject UIVictoire;
     private HashSet<GameObject> objectsInside = new HashSet<GameObject>();
 
     private bool hasWon = false;
