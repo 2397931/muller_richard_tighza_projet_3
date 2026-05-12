@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ZoneDepot : MonoBehaviour
 {
     public int count;
     public GameObject UIVictoire;
-
 
     public ScorePersistant pointage;
 
@@ -17,10 +17,8 @@ public class ZoneDepot : MonoBehaviour
     {
         if (other.CompareTag("DropObject"))
         {
-            
             if (!objectsInside.Contains(other.gameObject))
             {
-             
                 if (count < 7)
                 {
                     count++;
@@ -28,7 +26,15 @@ public class ZoneDepot : MonoBehaviour
 
                 objectsInside.Add(other.gameObject);
 
-                // Update score UI
+                
+                XRGrabInteractable grab = other.GetComponent<XRGrabInteractable>();
+
+                if (grab != null)
+                {
+                    grab.enabled = false;
+                }
+
+                
                 pointage.OnChangerPointage(count);
 
                 CheckWin();
