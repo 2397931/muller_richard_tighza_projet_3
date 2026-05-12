@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class ZoneDepot : MonoBehaviour
@@ -52,7 +53,7 @@ public class ZoneDepot : MonoBehaviour
 
     void CheckWin()
     {
-        if (!hasWon && objectsInside.Count >= 7)
+        if (!hasWon && count >= 7)
         {
             hasWon = true;
 
@@ -62,6 +63,7 @@ public class ZoneDepot : MonoBehaviour
             {
                 UIVictoire.SetActive(true);
             }
+            UnityEngine.SceneManagement.SceneManager.LoadScene("reussi");
         }
     }
 }
