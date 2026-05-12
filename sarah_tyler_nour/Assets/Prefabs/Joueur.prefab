@@ -1091,7 +1091,6 @@ GameObject:
   - component: {fileID: 4527963774682633703}
   - component: {fileID: 1784753758330731708}
   - component: {fileID: 6520112440093300157}
-  - component: {fileID: 2514374495679852532}
   - component: {fileID: 952440344643265364}
   - component: {fileID: 8684277090576884715}
   m_Layer: 0
@@ -1196,38 +1195,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &2514374495679852532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5595792594711242650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cdcd5eac9592e346b98133f75842308, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 6520112440093300157}
-  walkSpeed: 5.5
-  sprintSpeed: 9
-  acceleration: 10
-  deceleration: 12
-  gravity: -60
-  jumpHeight: 2
-  groundCheck: {fileID: 837853428555183973}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
-  cameraHolder: {fileID: 5773204186255276839}
-  bobSpeed: 12
-  bobAmount: 0.04
-  bobSideAmount: 0.025
-  tiltAmount: 3
-  tiltSpeed: 5
-  landingDip: 0.1
-  landingSpeed: 5
 --- !u!114 &952440344643265364
 MonoBehaviour:
   m_ObjectHideFlags: 0
