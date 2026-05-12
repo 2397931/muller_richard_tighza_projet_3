@@ -84,7 +84,7 @@ public class DialogueManager : MonoBehaviour
 
         if (rightHand.TryGetFeatureValue(CommonUsages.primaryButton, out aButtonPressed) && aButtonPressed)
         {
-            // action
+            DisplayNextSentence();
         }
     }
 }
