@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JumpScare : MonoBehaviour
 {
     public Animator animator;
 
+    private bool played = false;
+
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("ZONE ENTERED");
+        if (played) return;
 
-        if (other.CompareTag("Player"))
+        if (other.transform.root.CompareTag("Player"))
         {
-            Debug.Log("PLAY ANIMATION");
+            played = true;
+
+            Debug.Log("PLAY JUMPSCARE");
 
             animator.SetTrigger("PlayAnim");
         }
